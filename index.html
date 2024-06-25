@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body class="page">
+    <section class="checklist">
+      <div class="checklist__container">
+        <div class="checklist__progress">
+          <svg class="checklist__progress-bar" viewBox="0 0 60 60">
+
+            <circle class="circle-bg" cx="30" cy="30" r="28" stroke-width="4"
+              stroke="#e0e0e0" fill="none" />
+
+            <circle class="circle"
+              cx="30" cy="30" r="28"
+              stroke-dasharray="220"
+              stroke-dashoffset="215"
+              stroke="#2364db" stroke-width="4" fill="none"
+              transform="rotate(0 30 30)" />
+
+            <text x="30" y="30" text-anchor="middle" dominant-baseline="central"
+              class="checklist__progress-text" transform="rotate(90 30 30)" fill="white" style="font-size: 18px; font-weight: 400; line-height: 60px;">0/7</text>
+          </svg>
+        </div>
+        <div class=" checklist__text">
+          <span class="checklist__span">Чеклист</span>
+          <h1 class="checklist__title">Выполнено: 0 из 7 действий</h1>
+          <h2 class="checklist__subtitle">Следующее действие: Созвониться с
+            клиентом до 23.05.24 12:00</h2>
+        </div>
+        <button class="checklist__btn">Открыть чеклист</button>
+
+      </div>
+
+    </section>
+
+  </body>
+</html>
